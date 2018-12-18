@@ -1,9 +1,9 @@
-#about {
+#contact {
     font-family: var(--font-one);
     text-align: center;
     font-size: 30px;
     padding-left: 250px;
     padding-right: 100px;
     margin-right: -8px;
-    background-color: darkgray;
+    background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 }

@@ -1,0 +1,17 @@
+#projects {
+    font-family: var(--font-one);
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 250px;
+    padding-right: 100px;
+    margin-right: -8px;
+    background-color: rgb(1, 1, 58);
+}
+.firstproject {
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.firstproject:hover {
+    opacity: 0.8;
+}

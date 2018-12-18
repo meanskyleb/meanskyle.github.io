@@ -1,5 +1,7 @@
-#header {
+.header {
     font-family: var(--font-one);
-    text-align: center;
     font-size: 30px;
+    text-align-last: center;
+    padding-right: 200px;
+    padding: 2.7em;
 }

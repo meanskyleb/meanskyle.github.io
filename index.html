@@ -21,24 +21,130 @@
         <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
         <a href="https://www.linkedin.com/in/kylebmeans/"><i class="fa fa-fw fa-linkedin"></i> Linkedin</a>
         <a href="https://github.com/meanskyleb"><i class="fa fa-fw fa-github"></i> GitHub</a>
-        <a href="#resume"><i class="fa fa-fw fa-file-text-o"></i> Resume</a>
+        <a href="https://docs.google.com/document/d/1GMtXpMop72xZOSfOlAgHtMDsWCQ3eam51WbyCmd9hlY/edit#heading=h.x8fm1uorkbaw"><i class="fa fa-fw fa-file-text-o"></i> Resume</a>
       </div>
     
 
 <!--HEADER-->
-<section id="header">
-    <h1>Kyle B Means</h1>
-    <p>Junior Software Developer</p>
-</section>
+<header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Kyle B Means</h1>
+            <p>Junior Software Developer</p>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-<!--ABOUT-->
-<section id="about"><h1>About Me</h1></section>
+    <!--ABOUT-->
+<section id="about" class="about">
+    <div class="container">
+        <div class="col-lg-12 text-center">
+            <h2>About Me</h2>
+            <hr class="small">
+            <p class="lead">
+                Hello my name is Kyle Means and I grew up in Mooresville, Indiana, just a small town 20 minutes
+                southwest from Indianapolis. Ever since I was a young boy I have been influenced by technology
+                and the processes and development that it brings. Although, I am relatively new to the tech inudstry
+                and coding world I have always admired technology and been great manipulating it. I also enjoy sports,
+                music, movies, video games and family and friends. I have been defined by the close people in my life,
+                as a hard worker, passionate, intelligent, honest, determined, and trustworhty.
+        </div>
+    </div>
+</section>                 
 
 <!--PROJECTS-->
-<section id="project"><h1>Projects</h1></section>
+<section class="projects" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <span>Pure CSS and HTML Creature</span>
+                                <a href="https://codepen.io/meanskyleb/pen/NOmmwN"><img src="./assets/img/jaws.png" id="firstproject"></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <span>Pure CSS & HTML Static Store Front</span>
+                                <a href="https://meanskyleb.github.io/Super-Sports/#"><img src="./assets/img/storefront.PNG" id="secondproject"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <span>C# Console App Industry Challenges</span>
+                                <a href="https://github.com/meanskyleb/Gold-Badge-Challenges"><img src="./assets/img/goldbadgechallenge.PNG" id="thirdproject"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <span>N-Tier MVC Application</span>
+                                <a href="https://pickemwebmvc.azurewebsites.net/"><img src="./assets/img/PickEm.png" id="fourhproject"></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--CONTACT-->
+<section class="contacts">
+        <div id="contact" class="col-md-offset-2 col-md-8" style="color:white">
+            <br/>
+            <h2 class="text-center">Contact</h2>
+            <hr class="small">
+            <form action="https://formspree.io/meanskyleb@gmail.com" method="POST">
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <div>
+                            <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                                name="name">
+                        </div>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                            name="_replyto">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                            name="message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-lg btn-black" style="background-color: #28556F; color:white">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
 <!--FOOTER-->
-<section id="footer"><h1>Contact</h1></section>
+<section id="footer">
+    
+</section>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
